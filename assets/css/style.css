@@ -1,1 +1,56 @@
 /* Jonathan Behar Homework 6 GifTastic */
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/sports.png");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(71, 22, 161);  
+}
+
+
+.container-fluid {
+    margin: 25px;
+    margin-left: 25px;
+
+}
+
+
+
+button {
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px;
+
+
+}
+
+
+
+#addtext {
+    font-size: 30px;
+    color: #a10714;
+
+}
+
+
+.newItem {
+    display: block;
+    float: left;
+    margin: 20px;
+
+}
+
+
+.row {
+    margin-right: 35px;
+}
