@@ -8,6 +8,69 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'sf_sports_night_uprightRg';
+    src: url('fonts/sports_font/sfsportsnightupright-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightupright-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_night_ns_uprightRg';
+    src: url('fonts/sports_font/sfsportsnightnsupright-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightnsupright-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_night_ns_altuprigRg';
+    src: url('fonts/sports_font/sfsportsnightnsaltupright-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightnsaltupright-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_night_ns_alternatRg';
+    src: url('fonts/sports_font/sfsportsnightnsalternate-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightnsalternate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_night_nsregular';
+    src: url('fonts/sports_font/sfsportsnightns-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightns-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_night_altuprightRg';
+    src: url('fonts/sports_font/sfsportsnightaltupright-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightaltupright-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_night_alternateRg';
+    src: url('fonts/sports_font/sfsportsnightalternate-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnightalternate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sf_sports_nightregular';
+    src: url('fonts/sports_font/sfsportsnight-webfont.woff2') format('woff2'),
+         url('fonts/sports_font/sfsportsnight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
