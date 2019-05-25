@@ -13,7 +13,7 @@ $(document).ready(function() {
 
             var newButton = $("<button>");
             newButton.addClass("itembutton");
-            newButton.addClass("btn btn-success");
+            newButton.addClass("btn btn-primary btn-lg");
             newButton.text(myData[i]);
             newButton.attr("data-name", myData[i]);
             $("#allbuttons").append(newButton);

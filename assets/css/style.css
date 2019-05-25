@@ -1,5 +1,14 @@
 /* Jonathan Behar Homework 6 GifTastic */
 
+@font-face {
+    font-family: 'team_spirit_nfregular';
+    src: url('fonts/teamspirit/teamspiritnf-webfont.woff2') format('woff2'),
+         url('fonts/teamspirit/teamspiritnf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
     box-sizing: border-box;
     text-align: center;
@@ -12,25 +21,89 @@ body {
 }
 
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(71, 22, 161);  
-}
+/* h1 {
+    font-family: 'team_spirit_nfregular', 'Times New Roman', Times, serif;
+    color: red;  
+} */
 
+h1 {
+    font-family: 'team_spirit_nfregular', 'Times New Roman', Times, serif;
+    font-size: 6vw;
+    color: red;
+    margin-top: 5%;
+    text-align: center;
+  }
+.threeD {
+      font-size: 6vw;
+      font-weight: normal;
+      text-align: center;
+      margin: 5% 0 0 0;
+      color: red;
+      text-shadow:
+          -1px 1px 0 #ddd,
+          -2px 2px 0 #c8c8c8,
+          -3px 3px 0 #ccc,
+          -4px 4px 0 #b8b8b8,
+          -4px 4px 0 #bbb,
+          0px 1px 1px rgba(0,0,0,.4),
+          0px 2px 2px rgba(0,0,0,.3),
+          -1px 3px 3px rgba(0,0,0,.2),
+          -1px 5px 5px rgba(0,0,0,.1),
+          -2px 8px 8px rgba(0,0,0,.1),
+          -2px 13px 13px rgba(0,0,0,.1)
+          ;
+  }
+
+
+  .threeDB {
+    font-size: 2vw;
+    font-weight: normal;
+    text-align: center;
+    margin: 5% 0 0 0;
+    color: #ffffff;
+    text-shadow:
+        -1px 1px 0 #ddd,
+        -2px 2px 0 #c8c8c8,
+        -3px 3px 0 #ccc,
+        -4px 4px 0 #b8b8b8,
+        -4px 4px 0 #bbb,
+        0px 1px 1px rgba(0,0,0,.4),
+        0px 2px 2px rgba(0,0,0,.3),
+        -1px 3px 3px rgba(0,0,0,.2),
+        -1px 5px 5px rgba(0,0,0,.1),
+        -2px 8px 8px rgba(0,0,0,.1),
+        -2px 13px 13px rgba(0,0,0,.1)
+        ;
+}
 
 .container-fluid {
     margin: 25px;
     margin-left: 25px;
-
 }
 
 
 
 button {
+    font-family: 'team_spirit_nfregular';
     display: inline-block;
-    font-size: 25px;
+    font-size: 3vw;
     margin: 5px;
-
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    /* text-shadow:
+        -1px 1px 0 #ddd,
+        -2px 2px 0 #c8c8c8,
+        -3px 3px 0 #ccc,
+        -4px 4px 0 #b8b8b8,
+        -4px 4px 0 #bbb,
+        0px 1px 1px rgba(0,0,0,.4),
+        0px 2px 2px rgba(0,0,0,.3),
+        -1px 3px 3px rgba(0,0,0,.2),
+        -1px 5px 5px rgba(0,0,0,.1),
+        -2px 8px 8px rgba(0,0,0,.1),
+        -2px 13px 13px rgba(0,0,0,.1)
+        ; */
 
 }
 
@@ -39,18 +112,33 @@ button {
 #addtext {
     font-size: 30px;
     color: #a10714;
-
+    padding-bottom: 15px;
 }
-
 
 .newItem {
     display: block;
     float: left;
     margin: 20px;
-
 }
 
 
 .row {
     margin-right: 35px;
+}
+
+.sports {
+    font-family: 'team_spirit_nfregular';
+    text-shadow:
+    -1px 1px 0 #ddd,
+    -2px 2px 0 #c8c8c8,
+    -3px 3px 0 #ccc,
+    -4px 4px 0 #b8b8b8,
+    -4px 4px 0 #bbb,
+    0px 1px 1px rgba(0,0,0,.4),
+    0px 2px 2px rgba(0,0,0,.3),
+    -1px 3px 3px rgba(0,0,0,.2),
+    -1px 5px 5px rgba(0,0,0,.1),
+    -2px 8px 8px rgba(0,0,0,.1),
+    -2px 13px 13px rgba(0,0,0,.1)
+    ;
 }
