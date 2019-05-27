@@ -80,7 +80,7 @@
 body {
     background-image: url("../../assets/images/Sports.png");
     background-repeat: repeat;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
