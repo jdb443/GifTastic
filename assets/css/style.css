@@ -195,7 +195,6 @@ button {
     background: -o-linear-gradient(right, orange, green, cyan, blue, violet);
     background: -moz-linear-gradient(right, orange, green, cyan, blue, violet);
     background: linear-gradient(to right, orange , green, cyan, blue, violet);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
