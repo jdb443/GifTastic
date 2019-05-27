@@ -13,7 +13,7 @@ $(document).ready(function() {
 
             var newButton = $("<button>");
             newButton.addClass("itembutton");
-            newButton.addClass("btn btn-primary btn-lg");
+            newButton.addClass("btn btn-sky btn-lg");
             newButton.text(myData[i]);
             newButton.attr("data-name", myData[i]);
             $("#allbuttons").append(newButton);
@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     function displayInfo() {
         var itemName = $(this).attr("data-name");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=sports+" + itemName + "&rating=g&limit=10&api_key=s8WS7CiAcz0fgBMMELRSdL9jPESloiFT";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=sports+" + itemName + "&Rating=R&limit=10&api_key=s8WS7CiAcz0fgBMMELRSdL9jPESloiFT";
         $("#mainimages").empty();
 
         $.ajax ({

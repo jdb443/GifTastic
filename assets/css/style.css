@@ -154,6 +154,7 @@ button {
     font-weight: normal;
     text-align: center;
     color: #ffffff;
+    
     /* text-shadow:
         -1px 1px 0 #ddd,
         -2px 2px 0 #c8c8c8,
@@ -184,9 +185,19 @@ button {
     margin: 20px;
 }
 
+.newItem p{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.newItem img{
+    box-shadow: 0px 0px 10px 2px #888888;
+    /* box-shadow: 3px 3px 8px #888888; */
+}
 
 .row {
     margin-right: 35px;
+    margin-left: 35px;
 }
 
 .sports {
@@ -228,6 +239,7 @@ button {
     color: #fff;
     background-color: #ff0000;
     border-bottom: 4px solid #9e0000;
+    box-shadow: 1px 1px 5px #888888;
 }
 
 .btn-hot:hover, .btn-hot.active:focus, .btn-hot:focus, .open>.dropdown-toggle.btn-hot {
@@ -235,6 +247,7 @@ button {
     background-color: #ff0000;
     border-bottom: 4px solid #b25560;
     outline: none;
+    box-shadow: 1px 1px 5px #888888;
 }
     
     
@@ -243,6 +256,31 @@ button {
     background-color: #ff0000;
     border-top: 4px solid #990000;
     margin-top: 2px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-sky {
+    color: #fff;
+    background-color: #007BFF;
+    border-bottom: 4px solid #001969;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-sky:hover, .btn-sky.active:focus, .btn-sky:focus, .open>.dropdown-toggle.btn-sky {
+    color: #fff;
+    background-color: #007BFF;
+    border-bottom: 4px solid #031191;
+    outline: none;
+    box-shadow: 1px 1px 5px #888888;
+}
+    
+    
+.btn-sky:active, .btn-sky.active {
+    color: #fff;
+    background-color: #007BFF;
+    border-top: 4px solid #011c75;
+    margin-top: 2px;
+    box-shadow: 1px 1px 5px #888888;
 }
 
 .btn:focus,
@@ -250,4 +288,8 @@ button {
 .btn.active:focus {
     outline: none;
     outline-offset: 0px;
+}
+
+.shadowbox {
+    box-shadow: 1px 1px 5px #888888;
 }
