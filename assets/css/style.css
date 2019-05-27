@@ -190,11 +190,18 @@ button {
     font-family: 'sf_sports_nightregular';
     font-weight: bold;
     padding-bottom: 5px;
+    /* background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text; */
     background: red;
     background: -webkit-linear-gradient(left, orange , green, cyan, blue, violet);
     background: -o-linear-gradient(right, orange, green, cyan, blue, violet);
     background: -moz-linear-gradient(right, orange, green, cyan, blue, violet);
     background: linear-gradient(to right, orange , green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
