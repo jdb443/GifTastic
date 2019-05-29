@@ -9,7 +9,7 @@ $(document).ready(function() {
     function renderButton() {
         $("#allbuttons").empty();
 
-        for (var i=0 ; i < myData.length; i++) {
+        for (var i = 0 ; i < myData.length; i++) {
 
             var newButton = $("<button>");
             newButton.addClass("itembutton");
@@ -47,7 +47,7 @@ $(document).ready(function() {
 
             var results = response.data;
 
-            for (var i=0; i<results.length; i++) {
+            for (var i = 0; i < results.length; i++) {
 
                 var dataImage = $("<img>");
                 dataImage.attr("src", results[i].images.fixed_height_still.url);
@@ -58,7 +58,7 @@ $(document).ready(function() {
     
     
                 var newItemdiv = $('<div class="newItem">');
-                var gifRating = results[i].rating;
+                var gifRating = (results[i].rating).toUpperCase();
                 var divRating = $("<p>").text("Rating: " + gifRating);
                 
                 newItemdiv.append(divRating);
