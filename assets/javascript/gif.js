@@ -14,7 +14,7 @@ $(document).ready(function() {
             var newButton = $("<button>");
             newButton.addClass("itembutton");
             newButton.addClass("btn btn-sky btn-lg");
-            newButton.text(myData[i]);
+            newButton.text(myData[i] + ")"); // the ")" is a font styling to end the curling of the text using Team Spirit NF font
             newButton.attr("data-name", myData[i]);
             $("#allbuttons").append(newButton);
         }
@@ -37,7 +37,7 @@ $(document).ready(function() {
     function displayInfo() {
         var itemName = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=sports+" + itemName + "&Rating=R&limit=10&api_key=s8WS7CiAcz0fgBMMELRSdL9jPESloiFT";
-        // $("#mainimages").empty();
+        // $("#mainimages").empty(); // If I want to add change on click of gif ie empty old gifs add new gifs on button click
 
         $.ajax ({
             url: queryURL,
