@@ -37,7 +37,7 @@ $(document).ready(function() {
     function displayInfo() {
         var itemName = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=sports+" + itemName + "&Rating=R&limit=10&api_key=s8WS7CiAcz0fgBMMELRSdL9jPESloiFT";
-        $("#mainimages").empty();
+        // $("#mainimages").empty();
 
         $.ajax ({
             url: queryURL,
