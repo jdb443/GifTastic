@@ -299,6 +299,30 @@ button {
     box-shadow: 1px 1px 5px #888888;
 }
 
+.btn-sun {
+    color: #fff;
+    background-color: #ffd000;
+    border-bottom: 4px solid #9e7900;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-sun:hover, .btn-sun.active:focus, .btn-sun:focus, .open>.dropdown-toggle.btn-sun {
+    color: #fff;
+    background-color: #ffd000;
+    border-bottom: 4px solid #a56b00;
+    outline: none;
+    box-shadow: 1px 1px 5px #888888;
+}
+    
+    
+.btn-sun:active, .btn-sun.active {
+    color: #fff;
+    background-color: #ffd000;
+    border-top: 4px solid #bd8100;
+    margin-top: 2px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus {

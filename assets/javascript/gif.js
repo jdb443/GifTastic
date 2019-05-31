@@ -32,6 +32,11 @@ $(document).ready(function() {
 
     });  
 
+    $("#clear").on("click", function(event) {
+        event.preventDefault();
+        $("#mainimages").empty();
+    });
+
     $(document).on("click", ".itembutton", displayInfo);
 
     function displayInfo() {
